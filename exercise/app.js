@@ -32,9 +32,7 @@ app.controller("ResumeController", function ($scope) {
   $scope.activeTab = 'resume';
 })
 
-app.controller("GlobalController",function ($scope) {
-  
-})
+
 
 
 
