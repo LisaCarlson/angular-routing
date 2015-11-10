@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="MyApp">
+<head>
+  <title></title>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-route.js"></script>
+</head>
+<body>
+  <h1>NAVBAR</h1>
+  <p>{{"hello_class" | kebab}}</p>
+  <p>{{ 2 | kebab}}</p>
+  <p>{{ "hello-world" | camel}}</p>
+  <p>{{ "hello_universe" | camel}}</p>
+  <p>{{ "wow_this_is_cool" | camel}}</p>
+  <p>{{"hello" | pigLatin}}</p>
+  <p>{{"hello there" | pigLatin}}</p>
+  <p>{{"My dog Rusty is adorable" | redact: "Rusty"}}</p> 
+  <h1>FOOTER</h1>
+<script src="app.js"></script>
+</body>
+</html>
